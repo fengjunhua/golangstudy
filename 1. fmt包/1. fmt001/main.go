@@ -10,4 +10,8 @@ func main() {
 	fmt.Println("a%s", a)
 	fmt.Printf("aa\n")
 	fmt.Printf("bb%s", a)
+	s := &a
+	fmt.Println(s)
+	fmt.Println(*s)
+	fmt.Println(*&a)
 }
